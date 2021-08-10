@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include arkan_pos *.css
+recursive-include arkan_pos *.csv
+recursive-include arkan_pos *.html
+recursive-include arkan_pos *.ico
+recursive-include arkan_pos *.js
+recursive-include arkan_pos *.json
+recursive-include arkan_pos *.md
+recursive-include arkan_pos *.png
+recursive-include arkan_pos *.py
+recursive-include arkan_pos *.svg
+recursive-include arkan_pos *.txt
+recursive-exclude arkan_pos *.pyc
